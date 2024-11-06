@@ -21,7 +21,7 @@ repository               : "zachlihn.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpeg"
+  avatar           : "images/profile.jpeg"
   name             : "Zachary Lihn"
   pronouns         : "he/him" 
   bio              : "Math Undergraduate @ Columbia"
@@ -237,12 +237,12 @@ defaults:
   #     share: true
   #     related: true
   # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+  # - scope:
+  #     path: ""
+  #     type: pages
+  #   values:
+  #     layout: single
+  #     author_profile: true
   # _teaching
   - scope:
       path: ""
