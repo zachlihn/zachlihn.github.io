@@ -1,0 +1,25 @@
+{
+  "visible": false,
+  "talks": [
+    {
+      "year": 2024,
+      "title": "An Equivariant Bézout’s Theorem",
+      "venue": "IAS/PCMI · Motivic Homotopy Theory"
+    },
+    {
+      "year": 2024,
+      "title": "Maschke’s Theorem and Schur’s Lemma",
+      "venue": "Columbia Undergraduate Math Society Summer Seminar"
+    },
+    {
+      "year": 2023,
+      "title": "Topological Theories and Automata",
+      "venue": "Columbia Undergraduate Research Symposium"
+    },
+    {
+      "year": 2022,
+      "title": "Explicit Equations of Fake Projective Planes",
+      "venue": "DIMACS REU · Rutgers University"
+    }
+  ]
+}

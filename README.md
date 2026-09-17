@@ -6,7 +6,7 @@ An academic homepage for Zachary Lihn, a PhD student in mathematics at Princeton
 
 ## Updating the website
 
-- Edit `index.html` to update the biography, publications, teaching, talks, and background.
+- Edit `index.html` to update the biography, publications, teaching, and background.
 - Edit `assets/css/academic.css` to change the layout or colors.
 - Replace `images/profile.jpeg` to update the portrait.
 
@@ -17,3 +17,7 @@ The website uses system fonts. MathJax is loaded from jsDelivr for mathematical 
 The previous `/about/`, `/publications/`, `/teaching/`, `/talks/`, `/cv/`, and `/resume/` addresses forward to their new destinations. Legacy Academic Pages source files are retained but excluded from publication in `_config.yml`. Their original license remains in `LICENSE`.
 
 The downloadable CV is intentionally not included. The former CV and résumé addresses now lead to the academic background section.
+
+## Hidden selected talks
+
+The selected-talk records are preserved in `_data/selected_talks.json` with `visible: false`. They are not rendered in the homepage or linked in navigation. The `_data` directory is excluded from the published website by `_config.yml`. The old `/talks/` address returns to the homepage. To restore the section later, render the saved entries in `index.html` and restore its navigation link.
